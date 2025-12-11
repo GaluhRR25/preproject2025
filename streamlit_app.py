@@ -6,7 +6,7 @@ import streamlit as st
 st.write("Fighting, *Semuanya!* :sunglasses:")
 
 import streamlit as st
-number = int(st.number_input("Insert a number",min_value=None, max_value=None,))
+number =(st.number_input("Insert a number",min_value=None, max_value=None,))
 if number%2==1:
     st.write("Bilngan",number,"termasuk bilangan ganjil")
 else:
