@@ -7,9 +7,9 @@ st.set_page_config(
     layout="centered"
 )
 # Judul utama
-st.title("🧪 Selamat datang di Kalkulator Kimia Analisis")
+    st.title("🧪 Selamat datang di Kalkulator Kimia Analisis")
 # Subjudul
-st.write("### Silahkan pilih menu di bawah ini")
+    st.write("### Silahkan pilih menu di bawah ini")
 # Menu pilihan
 menu = st.selectbox(
     "Pilih jenis perhitungan:",
