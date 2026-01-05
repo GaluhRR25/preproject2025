@@ -21,13 +21,10 @@ st.set_page_config(
     page_icon="⚗️",
     layout="centered"
 )
-
 # Judul utama
 st.title("🧪 Selamat datang di Kalkulator Kimia Analisis")
-
 # Subjudul
 st.write("### Silahkan pilih menu di bawah ini")
-
 # Menu pilihan
 menu = st.selectbox(
     "Pilih jenis perhitungan:",
